@@ -9,6 +9,14 @@
   </head>
 
 <body>
+<div id="div1"></div>
+<script language="javascript">
+  function play_click(sef,url){
+    var div = document.getElementById('div1');
+    div.innerHTML = '<embed src="'+url+'" loop="0" autostart="true" width = "0" height="0" ></embed>';
+}
+</script>
+
   <header class="container">
     <div class="row">
       <h1 class="col-sm-8"> English for food</h1>
@@ -20,8 +28,8 @@
     </div>
   </header>
 
-
   <section class="picbar">
+
     <div class="container">
       <div class="row text-center">
         <h2>Garden stuff in a supermarket</h2>
@@ -33,49 +41,49 @@
 <section class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h3>Spinach</h3>
+        <h3>Spinach  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/1.m4a');"></h3>
         <img src="./resource_files/veg/spinach.jpg" width="525" 
   height="525">
       </div>
 
       <div class="col-sm-6">
-        <h3>Almonds</h3>
+        <h3>Almonds  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/2.m4a');"></h3>
         <img src="./resource_files/veg/almonds.jpg" width="525" 
   height="525">
       </div>
 
     <div class="col-sm-6">
-        <h3>Brussel-sprouts</h3>
+        <h3>Brussel-sprouts  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/3.m4a');"></h3>
         <img src="./resource_files/veg/brussel-sprouts.jpg" width="525" 
   height="525">
       </div>
 
       <div class="col-sm-6">
-        <h3>Cauliflower</h3>
+        <h3>Cauliflower  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/4.m4a');"></h3>
         <img src="./resource_files/veg/cauliflower.jpg" width="525" 
   height="525">
       </div>
 
       <div class="col-sm-6">
-        <h3>Turnip-greens</h3>
+        <h3>Turnip-greens  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/5.m4a');"></h3>
         <img src="./resource_files/veg/Turnip-greens.jpg" width="525" 
   height="525">
       </div>
 
       <div class="col-sm-6">
-        <h3>Raspberries</h3>
+        <h3>Raspberries  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/6.m4a');"></h3>
         <img src="./resource_files/veg/raspberries.jpg" width="525" 
   height="525">
       </div>
 
     <div class="col-sm-6">
-        <h3>Sunflower-seeds</h3>
+        <h3>Sunflower-seeds  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/7.m4a');"></h3>
         <img src="./resource_files/veg/Sunflower-seeds.jpg" width="525" 
   height="525">
       </div>
 
       <div class="col-sm-6">
-        <h3>Sweet-potatoes</h3>
+        <h3>Sweet-potatoes  <input type="button" value="play" size="3" onclick="play_click(this,'./pronounce/8.m4a');"></h3>
         <img src="./resource_files/veg/Sweet-potatoes.jpg" width="525" 
   height="525">
       </div>
